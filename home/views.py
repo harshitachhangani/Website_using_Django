@@ -21,6 +21,10 @@ def services(request):
     return render(request, 'services.html')
     #return HttpResponse("This is Services Page")
 
+def explore(request):
+    return render(request, 'explore.html')
+    #return HttpResponse("This is Services Page")
+
 def contact(request):
     if request.method == "POST":
         name = request.POST.get('name')
