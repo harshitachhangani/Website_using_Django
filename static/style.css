@@ -10,7 +10,15 @@
   }
 .card-text {
   color: rgb(9, 9, 10);
+  text-align: justify;
 }
+  .cardi {
+    text-align: justify; 
+  }
+  .cardi-text {
+    color: rgb(9, 9, 10);
+    text-align: justify;
+  }
 
   .card:hover {
     

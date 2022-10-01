@@ -25,6 +25,22 @@ def explore(request):
     return render(request, 'explore.html')
     #return HttpResponse("This is Services Page")
 
+def risk(request):
+    return render(request, 'risk.html')
+    #return HttpResponse("This is risk Page")
+
+def hazard(request):
+    return render(request, 'hazard.html')
+    #return HttpResponse("This is hazard Page")
+
+def genelab(request):
+    return render(request, 'genelab.html')
+    #return HttpResponse("This is GeneLab Page")
+
+def space_bio_pro(request):
+    return render(request, 'space_bio_pro.html')
+    #return HttpResponse("This is GeneLab Page")
+
 def contact(request):
     if request.method == "POST":
         name = request.POST.get('name')

@@ -8,7 +8,8 @@ urlpatterns = [
    path("services", views.services, name='services'),
    path("contact", views.contact, name='contact'),
    path("explore", views.explore, name='explore'),
-
-   
-   
+   path("risk", views.risk, name='risk'),
+   path("hazard", views.hazard, name='hazard'),
+   path("genelab", views.genelab, name='genelab'),
+   path("space_bio_pro", views.space_bio_pro, name='space_bio_pro'),
 ]
